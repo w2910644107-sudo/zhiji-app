@@ -31,8 +31,8 @@ export function MainNav() {
           href="/"
           className="grid shrink-0 gap-0.5 text-ink transition hover:-translate-y-0.5"
         >
-          <span className="font-song text-xl font-semibold tracking-[0.08em] sm:text-2xl">知机</span>
-          <span className="hidden text-[11px] tracking-[0.08em] text-smoke/80 sm:block">知其机，断其事</span>
+          <span className="font-song text-xl font-semibold tracking-[0.08em] sm:text-2xl">知己APP</span>
+          <span className="hidden text-[11px] tracking-[0.08em] text-smoke/80 sm:block">身边的命理助手</span>
         </Link>
         <div className="flex min-w-0 items-center gap-1 overflow-x-auto rounded-full border border-gold-soft/50 bg-white/28 p-1 text-xs text-smoke shadow-sm sm:text-sm">
           {navItems.map((item) => {
